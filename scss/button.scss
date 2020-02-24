@@ -1,0 +1,81 @@
+@import "./colors.scss";
+
+
+.btn {
+  color: $grey-black;
+  border-radius: 50px;
+  border: none;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 8px 10px 8px 10px;
+  outline: 0;
+  resize: none;
+  cursor: pointer;
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+
+  &.stretch-btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+.btn-group  {
+  float: right;
+
+  & > * {
+    margin-left: 0.5em;
+  }
+}
+
+@mixin btn-theme($btn-color) {
+  background-color: $btn-color;
+
+  &:hover {
+    background-color: darken($btn-color, 10%);
+  }
+
+  &:disabled, &:hover:disabled {
+    color: $grey-medium;
+    background-color: $grey-light;
+    cursor: not-allowed;
+  }
+}
+
+.black-btn {
+   background-color: $grey-black;
+   color: $white;
+   &:hover {
+    background-color: lighten($grey-black, 10%);
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.green-btn {
+   @include btn-theme($green);
+}
+.blue-btn {
+   @include btn-theme($blue);
+}
+.yellow-btn {
+   @include btn-theme($yellow);
+}
+.red-btn {
+   @include btn-theme($red);
+}
+
+.grey-btn {
+   @include btn-theme($grey-medium);
+}
+
+.big-btn {
+  padding: 0.8em 1.2em;
+}
+

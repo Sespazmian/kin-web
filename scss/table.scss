@@ -1,0 +1,36 @@
+@import './colors.scss';
+
+table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+
+  a {
+    display: block;
+    padding: 1em;
+    color: inherit;
+  }
+
+  th {
+    font-weight: 400;
+    text-align: left;
+    font-size: 12px;
+    color: $grey-dark;
+    background: $grey-light;
+    padding: 1em;
+  }
+
+  td {
+    padding: 0em;
+    border-width: 0px 0px 1px 0;
+    border-color: $grey-medium;
+    border-style: solid;
+    margin: 4em;
+  }
+
+}
+
+.dynamic-table {
+  tbody tr:hover, tr:active {
+  background: $grey-light;
+  }
+}

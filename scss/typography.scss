@@ -1,0 +1,107 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+// @media (max-width: 500px) {
+//   h1 {
+//   font-size: 38px;
+//   }
+
+//   h2 {
+//     font-size: 30px;
+//   }
+
+//   h3 {
+//     font-size: 25px;
+//     margin-top: 0;
+//     margin-bottom: 14px;
+//   }
+
+//   h4 {
+//     font-size: 18px;
+//     margin-top: 0;
+//     margin-bottom: 10px;
+//   }
+
+//   h5 {
+//     font-size: 16px;
+//     margin-top: 0;
+//     margin-bottom: 9px;
+//   }
+
+//   h6 {
+//     font-size: 14px;
+//   }
+// }
+
+p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.small  {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.big  {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.really-small  {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
+}
