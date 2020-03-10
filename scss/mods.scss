@@ -127,7 +127,6 @@
 
 .nobr { white-space:nowrap; }
 
-
 #red-hover:hover { color: $red; }
 #green-hover:hover { color: $green; }
 #blue-hover:hover { color: $blue; }
@@ -240,6 +239,11 @@
   }
 }
 
+.box-shadow {
+  -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.15);
+}
 
 
 

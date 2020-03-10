@@ -1390,6 +1390,12 @@ html:hover [class^=ss-] {
     display: none;
   }
 }
+.box-shadow {
+  -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.15);
+}
+
 .red {
   color: #FF8162;
 }
@@ -1576,6 +1582,10 @@ html:hover [class^=ss-] {
 
 .big-btn {
   padding: 0.8em 1.2em;
+}
+
+.small-btn {
+  padding: 0.3em 1.2em;
 }
 
 .red {
@@ -2597,6 +2607,17 @@ footer .end {
 #calendly-link {
   text-decoration: none;
   color: none;
+}
+
+/* Quote */
+.quote > div:first-child {
+  font-style: italic;
+  color: #61646D;
+}
+.quote img {
+  max-width: 3em;
+  max-height: 3em;
+  border-radius: 100px;
 }
 
 /*# sourceMappingURL=output.css.map */
